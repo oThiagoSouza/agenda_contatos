@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color:gainsboro;
+}
+
+#cel {
+    display: flex;
+    height: 45px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 16px;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    margin: 16px;
+    justify-content: center;
+
+}
+
+input {
+    padding: 2px;
+}
+
+table {
+    display: inline;
+    text-align: center;
+}
+
+table tr th {
+    border-bottom: 1px solid #000;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color:rgb(123, 123, 123);
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: rgb(0, 182, 64);
+}
